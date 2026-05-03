@@ -55,7 +55,9 @@ export default function PortalPage() {
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur-xl">
         <nav className="section-shell flex h-16 items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <img src="/re-logo.png" alt="Remaster Logo" className="h-10 w-10 object-contain rounded-md" />
+            <span className="grid h-10 w-10 place-items-center border border-white/25 bg-white text-sm font-black text-black shadow-glow-soft">
+              RE
+            </span>
             <span className="hidden font-display text-sm uppercase sm:inline">REMASTER</span>
           </a>
           <div className="hidden items-center gap-1 md:flex">
@@ -84,13 +86,15 @@ export default function PortalPage() {
             <BadgeCheck size={16} />
             FiveM Roleplay Server
           </div>
-          <img src="/re-logo.png" alt="Remaster Logo" className="h-12 w-12 object-contain rounded-md" />
+          <div className="mb-8 grid h-28 w-28 place-items-center border border-white/25 bg-white text-4xl font-black text-black shadow-glow md:h-36 md:w-36 md:text-5xl">
+            RE
           </div>
           <h1 className="text-balance font-display text-5xl font-black uppercase leading-none text-white md:text-8xl lg:text-9xl">
             REMASTER EDITION
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/65">
-            Cisty, moderny portal pre FiveM roleplay komunitu s galeriou, frakciami, novinkami a admin panelom napojenym na Supabase.
+  Vitaj na serveri Remaster, pre lepší pôžitok zo hry si prosím prečítaj pravidlá a pripoj sa na náš Discord.
+</p>
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
