@@ -93,8 +93,7 @@ export default function PortalPage() {
             REMASTER EDITION
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/65">
-  Vitaj na serveri Remaster, pre lepší pôžitok zo hry si prosím prečítaj pravidlá a pripoj sa na náš Discord.
-</p>
+            sssssssssssssssssssssssssssssssssssssssss
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
