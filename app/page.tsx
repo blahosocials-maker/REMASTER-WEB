@@ -55,7 +55,8 @@ export default function PortalPage() {
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur-xl">
         <nav className="section-shell flex h-16 items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <img src="/re-logo.png" alt="Remaster Logo" className="h-10 w-10 object-contain rounded-md" />
+            <span className="grid h-10 w-10 place-items-center border border-white/25 bg-white text-sm font-black text-black shadow-glow-soft">
+              RE
             </span>
             <span className="hidden font-display text-sm uppercase sm:inline">REMASTER</span>
           </a>
@@ -85,9 +86,9 @@ export default function PortalPage() {
             <BadgeCheck size={16} />
             FiveM Roleplay Server
           </div>
-          <div className="mb-8 flex items-center justify-center">
-  <img src="/re-logo.png" alt="Remaster Logo" className="h-28 w-28 object-contain md:h-36 md:w-36" />
-</div>
+          <div className="mb-8 grid h-28 w-28 place-items-center border border-white/25 bg-white text-4xl font-black text-black shadow-glow md:h-36 md:w-36 md:text-5xl">
+            RE
+          </div>
           <h1 className="text-balance font-display text-5xl font-black uppercase leading-none text-white md:text-8xl lg:text-9xl">
             REMASTER EDITION
           </h1>
@@ -96,7 +97,7 @@ export default function PortalPage() {
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
-              href={discordUrl}
+              href={https://discord.gg/qFs3VGqqq}
               className="group inline-flex items-center justify-center gap-3 bg-white px-7 py-4 text-sm font-black uppercase text-black transition hover:bg-white/85"
             >
               Discord
