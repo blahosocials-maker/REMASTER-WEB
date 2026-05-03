@@ -84,8 +84,7 @@ export default function PortalPage() {
             <BadgeCheck size={16} />
             FiveM Roleplay Server
           </div>
-          <div className="mb-8 grid h-28 w-28 place-items-center border border-white/25 bg-white text-4xl font-black text-black shadow-glow md:h-36 md:w-36 md:text-5xl">
-            RE
+          <img src="/re-logo.png" alt="Remaster Logo" className="h-12 w-12 object-contain rounded-md" />
           </div>
           <h1 className="text-balance font-display text-5xl font-black uppercase leading-none text-white md:text-8xl lg:text-9xl">
             REMASTER EDITION
