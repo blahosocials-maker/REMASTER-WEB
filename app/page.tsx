@@ -55,9 +55,7 @@ export default function PortalPage() {
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur-xl">
         <nav className="section-shell flex h-16 items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <span className="grid h-10 w-10 place-items-center border border-white/25 bg-white text-sm font-black text-black shadow-glow-soft">
-              <img src="/re-logo.png" alt="Remaster Logo" className="h-36 w-36 object-contain rounded-xl shadow-lg" />
-            </span>
+            <img src="/re-logo.png" alt="Remaster Logo" className="h-10 w-10 object-contain rounded-md" />
             <span className="hidden font-display text-sm uppercase sm:inline">REMASTER</span>
           </a>
           <div className="hidden items-center gap-1 md:flex">
